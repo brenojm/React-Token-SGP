@@ -17,10 +17,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: Install Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: 13.x
+    
     
     - name: Install NPM packages
       run: npm ci
